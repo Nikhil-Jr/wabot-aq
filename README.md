@@ -1,139 +1,108 @@
-# wabot-aq
 
-Simple WhatsApp Bot
+<div align="center">
+  <img border-radius: 15px src="https://avatars.githubusercontent.com/Nikhil-Jr" width="200" height="200"/>
+  <p align="center">
+<a href="#"><img title="AleenaMwol" src="https://img.shields.io/badge/AleenaMwol-green?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
+</p>
+  <p align="center">
+<a href="https://github.com/Nikhil-Jr"><img title="Author" src="https://img.shields.io/badge/Author-Nikhil-Jr/aleenabot?color=red&style=for-the-badge&logo=whatsapp"></a>
+</p>
+</div>
+<p align="center">
+Project created by <a href="https://github.com/Nikhil-Jr">Nikhil Jr</a> to make it public
+    <br>
+       | © |
+        Reserved |
+    <br> 
+</p>
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Nurutomo/wabot-aq)
+----
 
-## FOR TERMUX/UBUNTU/SSH USER
+  <p align="center">
+  <a href="httsp://github.com/Nikhil-Jr/aleenabot">
+    <img src="https://img.shields.io/github/repo-size/Nikhil-Jr/aleenabot?color=green&label=Repo%20total%20size&style=plastic">
+<p align="center">
+<a href="https://github.com/nikhiljr10/followers"><img title="Followers" src="https://img.shields.io/github/followers/Nikhil-Jr10?color=blue&style=flat-square"></a>
+<a href="https://github.com/Nikhil-Jr/aleenabot/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/Nikhil-Jr/aleenabot?color=blue&style=flat-square"></a>
+<a href="https://github.com/Nikhil-Jr/aleenabot/network/members"><img title="Forks" src="https://img.shields.io/github/forks/Nikhil-Jr/aleenabot?color=blue&style=flat-square"></a>
+<a href="https://github.com/Nikhil-Jr/aleenabot/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/Nikhil-Jr/aleenabot?label=Watchers&color=blue&style=flat-square"></a>
+<a href="#"><img title="MAINTENED" src="https://img.shields.io/badge/UNMAINTENED-YES-blue.svg"</a>
+</p>
 
-```bash
-apt update && apt upgrade
-apt install git -y
-apt install nodejs -y
-apt install ffmpeg -y
-apt install imagemagick -y
-git clone https://github.com/Nurutomo/wabot-aq
-cd wabot-aq
-npm install
-npm update
+## 📢 Guide
+Click WA logo to Join Support Group 👇
+    <br>
+<br>
+  [![join](https://github.com/Alien-alfa/PublicBot/blob/main/wlogo.svg.png)](https://chat.whatsapp.com/L7nVhwQh9NX59hqyVswgoG)
+  <div align="center">
+       
+  [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=nikhiljr10&repo=AleenaMwol&theme=nightowl)](https://github.com/Nikhil-Jr/aleenabot)
+  </div>
+    
+## Setup
+<div align="center">
+
+  ### Simple Method
+  
+[![Run on Repl.it](https://repl.it/badge/github/quiec/whatsAlfa)](https://replit.com/@phaticusthiccy/WhatsAsena-QR)
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Nikhil-Jr/aleenabot)
+     </div>
+<br>
+<br >
+If Repl.it not working Try Termux for Qr scanning.Just Copy the Link Below in Termux
 ```
-
----------
-
-## FOR WINDOWS/VPS/RDP USER
-
-* Download And Install Git [`Click Here`](https://git-scm.com/downloads)
-* Download And Install NodeJS [`Click Here`](https://nodejs.org/en/download)
-* Download And Install FFmpeg [`Click Here`](https://ffmpeg.org/download.html) (**Don't Forget Add FFmpeg to PATH enviroment variables**)
-* Download And Install ImageMagick [`Click Here`](https://imagemagick.org/script/download.php)
-
-```bash
-git clone https://github.com/Nurutomo/wabot-aq
-cd wabot-aq
-npm install
-npm update
-```
-
----------
-
-## Run
-
-```bash
-node .
-```
-
----------
-
-## Arguments `node . [--options] [<session name>]`
-
-### `--self`
-
-Activate self mode (Ignores other)
-
-### `--prefix <prefixes>`
-
-* `prefixes` are seperated by each character
-Set prefix
-
-### `--server`
-
-Used for [heroku](https://heroku.com/) or scan through website
-
-### `--db <json-server-url>`
-
-Use external db instead of local db, 
-Example Server `https://json-server.nurutomo.repl.co/`
-Code: `https://repl.it/@Nurutomo/json-server`
-
-`node . --db 'https://json-server.nurutomo.repl.co/'`
-
-The server should have like this specification
-
-#### GET
-
-```http
-GET /
-Accept: application/json
-```
-
-#### POST
-
-```http
-POST /
-Content-Type: application/json
-
-{
- data: {}
-}
-```
-
-### `--big-qr`
-
-If small qr unicode doesn't support
-
-### `--restrict`
-
-Enables restricted plugins (which can lead your number to be **banned** if used too often)
-
-* Group Administration `add, kick`
-
-### `--img`
-
-Enable image inspector through terminal
-
-### `--autoread`
-
-If enabled, all incoming messages will be marked as read
-
-### `--nyimak`
-
-No bot, just print received messages and add users to database
-
-### `--test`
-
-**Development** Testing Mode
-
-### `--trace`
-
+bash <(curl -L https://t.ly/tHxh)
+``` 
+  
+### The Hard Method
 ```js
-conn.logger.level = 'trace'
+GET QR
+$ apt update
+$ apt install nodejs --fix-missing
+$ pkg install git
+$ git clone https://github.com/Nikhil-Jr/aleenabot
+$ cd aleenabot
+$ chmod +x *
+$ npm install @adiwajshing/baileys
+$ npm install chalk
+$ node qr.js
 ```
-
-### `--debug`
-
+      
 ```js
-conn.logger.level = 'debug'
+SETUP
+$ git clone https://github.com/Nikhil-Jr/aleenabot
+$ cd aleenabot
+$ chmod +x *
+$ npm i
+$ node qr.js
+   // scan the qr using whatsapp web on your phone
+$ node bot.js
 ```
 
----------
 
-#### Powered By : [`XTEAM`](https://api.xteam.xyz)
+### ⚠️ Warning! 
+```
+Due to Userbot; Your WhatsApp account may be banned.
+This is an open source project, you are responsible for everything you do. 
+Absolutely, Asena executives do not accept responsibility.
+By establishing the Asena, you are deemed to have accepted these responsibilities.
+```
 
-#### Author / Creator : [`Nurutomo`](https://github.com/Nurutomo)
+## Developers
+  <div align="center">
+    
+  [![Nikhil Jr](https://github.com/Nikhil-Jr.png?size=100)]
+      (https://github.com/Nikhil-Jr)
+  [Nikhil Jr]
+    (https://github.com/Nikhil-Jr)
+    Owner, Modifiying  as   public 
+  </div>
+    
 
-#### Most Active Contributor : [`ariffb25`](https://github.com/ariffb25)
 
-#### 2nd Most Active Contributor: [`Ftwrr`](https://github.com/Ftwrr)
+## License
+This project is protected by `GNU General Public Licence v3.0` license.
 
-
-NOTE: This project will not maintained after `27 June 2021`, that means no update. Feel free to anyone to continue this project :)
+### Disclaimer
+`WhatsApp` name, its variations and the logo are registered trademarks of Facebook. We have nothing to do with the registered trademark
